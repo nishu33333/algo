@@ -1,0 +1,12 @@
+Cron/Schedule
+
+
+{
+  "Name": "FlagPatternBreakoutTrigger",
+  "ScheduleExpression": "cron(30 9 ? * MON-FRI *)",
+  "State": "ENABLED",
+  "Targets": [
+    { "Arn": "<Lambda-function-ARN>", "Id": "FlagPatternLambda" }
+  ]
+}
+
