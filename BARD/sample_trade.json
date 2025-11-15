@@ -1,0 +1,24 @@
+[
+  {
+    "symbol": "RELIANCE-EQ",
+    "yfsymbol": "RELIANCE.NS",
+    "token": "3045",
+    "timeframe": "FIFTEEN_MINUTE",
+    "timestamp": "2025-11-15T10:30:00.123456",
+    "trade_params": {
+      "entry": 2950.50,
+      "stop_loss": 2890.10,
+      "target": 3071.30,
+      "quantity": 4,
+      "risk_per_share": 60.40,
+      "position_value": 11802.00
+    },
+    "pattern_info": {
+      "consolidation_high": 2945.00,
+      "consolidation_low": 2905.20,
+      "breakout_price": 2947.55,
+      "breakout_volume": 150000,
+      "avg_volume": 85000
+    }
+  }
+]

@@ -1,0 +1,99 @@
+# 1. Install dependencies
+pip install -r requirements.txt
+
+# 2. Set credentials
+export ANGEL_API_KEY="your_key"
+export ANGEL_CLIENT_ID="your_id"
+export ANGEL_PASSWORD="your_password"
+export ANGEL_TOTP_SECRET="your_secret"
+
+# 3. Test locally
+python flag_pennant_trading_system.py
+
+# 4. Deploy to AWS Lambda
+chmod +x lambda_deploy.sh
+./lambda_deploy.sh
+
+# OR deploy to AWS Fargate
+chmod +x fargate_deploy.sh
+./fargate_deploy.sh
+
+
+
+
+⚠️ Critical Reminders:
+
+Always start with dry_run=True
+Test thoroughly for 1-2 weeks before live trading
+Never risk more than you can afford to lose
+Monitor performance and adjust parameters
+Use AWS Secrets Manager for credentials in production
+
+
+
+Summary
+I've created a complete, production-ready Flag & Pennant swing trading system for NSE equities using Angel One SmartAPI. Here's what you received:
+📦 Complete Package Includes:
+
+Core Trading System (flag_pennant_trading_system.py)
+
+Pattern detection for Flag & Pennant patterns
+Market cap filter (₹1,000 Cr minimum)
+Liquidity filter (2× position size turnover)
+Position sizing (25% allocation, 1% risk)
+Stop-loss & target calculation (2:1 R:R)
+Order placement with retry logic
+
+
+AWS Lambda Deployment (lambda_handler.py)
+
+Serverless execution
+CloudWatch Events scheduling
+Cost-effective (~$0.50/month)
+Automated deployment script
+
+
+AWS Fargate Deployment (fargate_runner.py)
+
+Containerized execution
+Docker-based deployment
+ECS task scheduling
+Complete Dockerfile included
+
+
+Deployment Scripts
+
+lambda_deploy.sh - One-click Lambda deployment
+fargate_deploy.sh - Automated Fargate setup
+Both handle IAM roles, permissions, scheduling
+
+
+Documentation
+
+README.md - Main documentation
+AWS_DEPLOYMENT_GUIDE.md - Step-by-step AWS setup
+USAGE_EXAMPLES.md - Code examples & customization
+sample_trade_output.json - Expected output format
+
+
+Configuration
+
+requirements.txt - All dependencies
+.env.example - Environment variables template
+Adjustable parameters for pattern detection
+Flexible position sizing options
+
+
+
+🎯 Key Features:
+✅ Pattern Detection: Bullish Flag & Pennant on Daily timeframe
+✅ Risk Management: 1% risk per trade, 25% allocation
+✅ Filters: Market cap (₹1,000Cr+) & Liquidity (2× turnover)
+✅ Position Sizing: Risk-based + allocation-based calculation
+✅ Entry Logic: Breakout confirmation with volume (1.5× avg)
+✅ Stop Loss: Consolidation low - ATR buffer
+✅ Target: 2:1 reward-to-risk ratio
+✅ AWS Ready: Lambda & Fargate deployment included
+✅ Scheduling: Daily execution at 9:30 AM IST
+✅ Error Handling: Retry logic, exponential backoff
+✅ Dry Run Mode: Test before live trading

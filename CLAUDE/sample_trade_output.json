@@ -1,0 +1,213 @@
+{
+  "timestamp": "2025-11-15T09:30:15.234567",
+  "stocks_scanned": 30,
+  "signals_generated": 3,
+  "dry_run": true,
+  "results": [
+    {
+      "status": "DRY_RUN",
+      "trade_signal": {
+        "symbol": "RELIANCE",
+        "symbol_token": "2885",
+        "pattern_type": "FLAG",
+        "timeframe": "ONE_DAY",
+        "current_price": 2456.75,
+        "entry_price": 2459.2,
+        "stop_loss": 2398.5,
+        "target": 2580.4,
+        "quantity": 4,
+        "allocation": 9836.8,
+        "risk_amount": 242.8,
+        "risk_percentage": 0.97,
+        "reward_amount": 485.6,
+        "reward_risk_ratio": 2.0,
+        "atr": 32.45,
+        "avg_volume": 8542000,
+        "breakout_volume": 14235000,
+        "volume_ratio": 1.67,
+        "pattern_details": {
+          "flagpole": {
+            "start_date": "2025-11-05",
+            "end_date": "2025-11-08",
+            "gain_percentage": 6.8,
+            "height_points": 158.5,
+            "duration_days": 4
+          },
+          "consolidation": {
+            "start_date": "2025-11-09",
+            "end_date": "2025-11-14",
+            "duration_days": 6,
+            "high": 2460.5,
+            "low": 2410.2,
+            "range_percentage": 2.1
+          },
+          "breakout": {
+            "date": "2025-11-15",
+            "price": 2456.75,
+            "volume_surge": "67% above average"
+          }
+        },
+        "risk_metrics": {
+          "max_loss_amount": 242.8,
+          "max_loss_percentage": 0.97,
+          "potential_profit": 485.6,
+          "potential_profit_percentage": 1.94,
+          "risk_reward_ratio": "1:2",
+          "position_size_percentage": 39.35
+        },
+        "market_filters": {
+          "market_cap_crores": 17234.56,
+          "market_cap_status": "PASS",
+          "avg_30day_turnover": 21045678900,
+          "required_turnover": 9836800,
+          "liquidity_ratio": 2140.5,
+          "liquidity_status": "PASS"
+        },
+        "timestamp": "2025-11-15T09:30:15.234567"
+      }
+    },
+    {
+      "status": "DRY_RUN",
+      "trade_signal": {
+        "symbol": "TCS",
+        "symbol_token": "11536",
+        "pattern_type": "PENNANT",
+        "timeframe": "ONE_DAY",
+        "current_price": 3845.30,
+        "entry_price": 3849.15,
+        "stop_loss": 3795.80,
+        "target": 3955.85,
+        "quantity": 1,
+        "allocation": 3849.15,
+        "risk_amount": 53.35,
+        "risk_percentage": 0.21,
+        "reward_amount": 106.7,
+        "reward_risk_ratio": 2.0,
+        "atr": 28.90,
+        "avg_volume": 2134000,
+        "breakout_volume": 3456000,
+        "volume_ratio": 1.62,
+        "pattern_details": {
+          "flagpole": {
+            "start_date": "2025-11-04",
+            "end_date": "2025-11-07",
+            "gain_percentage": 5.3,
+            "height_points": 194.5,
+            "duration_days": 4
+          },
+          "consolidation": {
+            "start_date": "2025-11-08",
+            "end_date": "2025-11-14",
+            "duration_days": 7,
+            "high": 3850.0,
+            "low": 3802.5,
+            "range_percentage": 1.2,
+            "pattern_type": "converging_triangle"
+          },
+          "breakout": {
+            "date": "2025-11-15",
+            "price": 3845.30,
+            "volume_surge": "62% above average"
+          }
+        },
+        "risk_metrics": {
+          "max_loss_amount": 53.35,
+          "max_loss_percentage": 0.21,
+          "potential_profit": 106.7,
+          "potential_profit_percentage": 0.43,
+          "risk_reward_ratio": "1:2",
+          "position_size_percentage": 15.4
+        },
+        "market_filters": {
+          "market_cap_crores": 14089.23,
+          "market_cap_status": "PASS",
+          "avg_30day_turnover": 8234567800,
+          "required_turnover": 3849150,
+          "liquidity_ratio": 2139.0,
+          "liquidity_status": "PASS"
+        },
+        "timestamp": "2025-11-15T09:30:22.456789"
+      }
+    },
+    {
+      "status": "DRY_RUN",
+      "trade_signal": {
+        "symbol": "INFY",
+        "symbol_token": "1594",
+        "pattern_type": "FLAG",
+        "timeframe": "ONE_DAY",
+        "current_price": 1678.90,
+        "entry_price": 1680.58,
+        "stop_loss": 1645.25,
+        "target": 1751.24,
+        "quantity": 3,
+        "allocation": 5041.74,
+        "risk_amount": 105.99,
+        "risk_percentage": 0.42,
+        "reward_amount": 211.98,
+        "reward_risk_ratio": 2.0,
+        "atr": 18.75,
+        "avg_volume": 5678000,
+        "breakout_volume": 9234000,
+        "volume_ratio": 1.63,
+        "pattern_details": {
+          "flagpole": {
+            "start_date": "2025-11-06",
+            "end_date": "2025-11-09",
+            "gain_percentage": 7.2,
+            "height_points": 112.8,
+            "duration_days": 4
+          },
+          "consolidation": {
+            "start_date": "2025-11-10",
+            "end_date": "2025-11-14",
+            "duration_days": 5,
+            "high": 1682.5,
+            "low": 1648.3,
+            "range_percentage": 2.0
+          },
+          "breakout": {
+            "date": "2025-11-15",
+            "price": 1678.90,
+            "volume_surge": "63% above average"
+          }
+        },
+        "risk_metrics": {
+          "max_loss_amount": 105.99,
+          "max_loss_percentage": 0.42,
+          "potential_profit": 211.98,
+          "potential_profit_percentage": 0.85,
+          "risk_reward_ratio": "1:2",
+          "position_size_percentage": 20.17
+        },
+        "market_filters": {
+          "market_cap_crores": 6893.45,
+          "market_cap_status": "PASS",
+          "avg_30day_turnover": 9567234500,
+          "required_turnover": 5041740,
+          "liquidity_ratio": 1897.4,
+          "liquidity_status": "PASS"
+        },
+        "timestamp": "2025-11-15T09:30:28.789012"
+      }
+    }
+  ],
+  "execution_summary": {
+    "total_allocation": 18727.69,
+    "total_risk": 402.14,
+    "total_potential_reward": 804.28,
+    "average_risk_percentage": 0.53,
+    "average_reward_risk_ratio": 2.0,
+    "capital_utilization_percentage": 74.91,
+    "remaining_capital": 6272.31
+  },
+  "rejected_signals": {
+    "count": 8,
+    "reasons": {
+      "failed_market_cap_filter": 2,
+      "failed_liquidity_filter": 3,
+      "position_size_too_small": 2,
+      "no_volume_confirmation": 1
+    }
+  }
+}
